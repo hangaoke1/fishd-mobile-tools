@@ -1,10 +1,10 @@
 {
   "name": "fishd-moibile-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "bin/fm.js",
+  "main": "tools/create.js",
   "bin": {
-    "fm": "bin/fm.js"
+    "fm": "bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
