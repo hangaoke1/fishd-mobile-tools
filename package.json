@@ -15,5 +15,12 @@
     "commander": "^5.1.0",
     "fs-extra": "^9.0.0",
     "glob": "^7.1.6"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hangaoke1/fishd-mobile-tools.git"
   }
 }
