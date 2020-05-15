@@ -1,0 +1,19 @@
+{
+  "name": "fishd-moibile-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/fm.js",
+  "bin": {
+    "fm": "bin/fm.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "fs-extra": "^9.0.0",
+    "glob": "^7.1.6"
+  }
+}
