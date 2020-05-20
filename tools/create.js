@@ -2,6 +2,7 @@ const fs = require('fs');
 const fsExtra = require('fs-extra');
 const path = require('path');
 const glob = require('glob');
+const Handlebars = require("handlebars");
 const writeFileTree = require('./writeFileTree');
 
 const resolve = (...args) => path.resolve(__dirname, ...args);
@@ -32,8 +33,10 @@ const createComponent = async function(options) {
     let fileKey = file
     if (file === 'component.tsx') {
       fileKey = options.name + '.tsx'
-    }
-    baseFilesMap[fileKey] = fs.readFileSync(resolve('../template/component', file), 'utf-8').replace(/\$name/g, options.name)
+		}
+		const fileStr = fs.readFileSync(resolve('../template/component', file), 'utf-8')
+		const template = Handlebars.compile(fileStr);
+		baseFilesMap[fileKey] = template({ name: options.name });
 	});
 
 

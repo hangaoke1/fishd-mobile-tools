@@ -1,4 +1,4 @@
 import React from 'react';
-import $name from '../$name.tsx';
+import {{name}} from '../{{name}}.tsx';
 
-describe('<$name />', () => {});
+describe('<{{name}} />', () => {});

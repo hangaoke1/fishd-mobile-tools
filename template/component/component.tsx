@@ -1,27 +1,20 @@
 import classnames from 'classnames';
 import * as React from 'react';
-import './style/index.less';
 
-class $name extends React.Component<any, any> {
+export interface {{name}}Props  {}
 
+class {{name}} extends React.Component<{{name}}Props, any> {
   static defaultProps = {
-    prefixCls: ''
+    prefixCls: '',
   };
 
   render() {
-    const {
-      children,
-      className,
-      prefixCls,
-      ...restProps
-    } = this.props;
+    const { className, prefixCls } = this.props;
 
     const wrapCls = classnames(prefixCls, className, {});
 
-    return (
-      <div className={wrapCls}>my component</div>
-    );
+    return <div className={wrapCls}>my component</div>;
   }
 }
 
-export default $name;
+export default {{name}};

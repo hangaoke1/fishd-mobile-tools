@@ -1,5 +1,5 @@
 {
-  "name": "fishd-moibile-tools",
+  "name": "fishd-mobile-tools",
   "version": "1.0.1",
   "description": "",
   "main": "tools/create.js",
@@ -14,7 +14,8 @@
   "dependencies": {
     "commander": "^5.1.0",
     "fs-extra": "^9.0.0",
-    "glob": "^7.1.6"
+    "glob": "^7.1.6",
+    "handlebars": "^4.7.6"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
