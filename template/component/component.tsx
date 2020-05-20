@@ -1,11 +1,15 @@
 import classnames from 'classnames';
 import * as React from 'react';
+import { {{name}}PropsType } from './PropsType';
 
-export interface {{name}}Props  {}
+export interface {{name}}Props extends {{name}}PropsType {
+  prefixCls?: string;
+  className?: string;
+}
 
 class {{name}} extends React.Component<{{name}}Props, any> {
   static defaultProps = {
-    prefixCls: '',
+    prefixCls: ''
   };
 
   render() {
