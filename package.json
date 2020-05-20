@@ -1,6 +1,6 @@
 {
   "name": "fishd-mobile-tools",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "tools/create.js",
   "bin": {
