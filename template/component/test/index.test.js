@@ -1,4 +1,6 @@
-import React from 'react';
-import {{name}} from '../{{name}}.tsx';
-
-describe('<{{name}} />', () => {});
+describe('<{{name}} />', () => {
+  it('trigger event correctly', () => {
+    // todos: write test!
+    expect(true).toBe(true);
+  });
+});
