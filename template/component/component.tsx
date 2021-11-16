@@ -1,8 +1,7 @@
 import classnames from 'classnames';
 import * as React from 'react';
-import { {{name}}PropsType } from './PropsType';
 
-export interface {{name}}Props extends {{name}}PropsType {
+export interface {{name}}Props {
   prefixCls?: string;
   className?: string;
 }

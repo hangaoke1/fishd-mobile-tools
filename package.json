@@ -1,7 +1,7 @@
 {
   "name": "fishd-mobile-tools",
-  "version": "1.0.5",
-  "description": "",
+  "version": "1.0.6",
+  "description": "ppfish-mobile 开发助手",
   "main": "tools/create.js",
   "bin": {
     "fm": "bin/index.js"
@@ -15,7 +15,8 @@
     "commander": "^5.1.0",
     "fs-extra": "^9.0.0",
     "glob": "^7.1.6",
-    "handlebars": "^4.7.6"
+    "handlebars": "^4.7.6",
+    "lodash": "^4.17.21"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"

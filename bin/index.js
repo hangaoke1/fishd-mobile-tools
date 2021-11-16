@@ -1,17 +1,16 @@
 #! /usr/bin/env node
-const commander = require('commander')
-const createComponent = require('../tools/create')
+const commander = require('commander');
+const pkg = require('../package.json');
+const createComponent = require('../tools/create');
 
-commander
-  .version('1.0.0')
+commander.version(pkg.version);
 
-// 创建组件
 commander
   .command('create <name>')
-  .description('quick create components dir and file')
+  .option('-class, --class', '类组件')
+  .description('快速创建组件模版')
   .action((name, options) => {
-    createComponent({ name })
-  })
+    createComponent({ name, isFc: !options.class });
+  });
 
-
-commander.parse(process.argv)
+commander.parse(process.argv);
