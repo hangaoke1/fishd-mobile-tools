@@ -6,6 +6,12 @@
   "bin": {
     "fm": "bin/index.js"
   },
+  "files": [
+    "bin",
+    "template",
+    "tools",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
