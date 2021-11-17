@@ -1,6 +1,6 @@
 {
   "name": "fishd-mobile-tools",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "ppfish-mobile 开发助手",
   "main": "tools/create.js",
   "bin": {
@@ -13,8 +13,8 @@
     "README.md"
   ],
   "np": {
-		"yarn": false
-	},
+    "yarn": false
+  },
   "scripts": {
     "test": "echo \"单元测试通过\""
   },
