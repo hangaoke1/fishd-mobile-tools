@@ -1,6 +1,6 @@
 {
   "name": "fishd-mobile-tools",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "ppfish-mobile 开发助手",
   "main": "tools/create.js",
   "bin": {
