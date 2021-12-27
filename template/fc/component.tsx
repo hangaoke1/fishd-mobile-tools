@@ -1,5 +1,5 @@
 import React from 'react';
-import classnames from 'classnames';
+import classNames from 'classnames';
 
 export interface {{name}}Props {
   className?: string;
@@ -9,7 +9,7 @@ export interface {{name}}Props {
 const classPrefix = `fm-{{kebabCaseName}}`;
 
 const {{name}}: React.FC<{{name}}Props> = ({ className }) => {
-  const {{name}}ClassName = classnames(classPrefix, {}, className);
+  const {{name}}ClassName = classNames(classPrefix, {}, className);
   return <div className={ {{~name}}ClassName}></div>;
 };
 
